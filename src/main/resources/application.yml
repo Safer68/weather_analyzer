@@ -1,3 +1,10 @@
 spring:
   liquibase:
     change-log: db.changelog/changelog.xml
+server:
+  port: 8081
+shedlock:
+  writeWeatherFixedRate: 1
+feignClient:
+  weatherServiceUrl: https://weatherapi-com.p.rapidapi.com/forecast.json?q=Minsk
+  X-RapidAPI-Key: ffe9b7b822mshdffa693d2093067p13d3ebjsndda5203516e4
