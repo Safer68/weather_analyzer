@@ -65,7 +65,7 @@ Response
 
 ## Инструкция для запуска
 
-1. Склонируйте репозиторий: git clone https://github.com/Safer68/test-task-online-store
+1. Склонируйте репозиторий: git clone https://github.com/Safer68/weather_analyzer
 2. Запустите склонированный код через IDE
 3. перейдя по (GET) http://localhost:8081/api/v1/weather/current мы получим информацию о текущей погоде
 4. перейдя по (POST) http://localhost:8081/api/v1/weather/Period передав
